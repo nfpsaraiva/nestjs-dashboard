@@ -1,5 +1,7 @@
 import SideNav from '@/app/ui/dashboard/sidenav';
 import { FC, ReactNode } from 'react';
+
+export const experimental_ppr = true;
  
 interface LayoutProps {
   children: ReactNode
